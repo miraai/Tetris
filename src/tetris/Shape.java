@@ -43,7 +43,7 @@ public class Shape {
         };
          
         //postavljamo jedan red vrednosti koordinata iz coordsTable u coords niz oblika
-        //original() metoda je enum metoda koja vraca trenutnu poziciju enum tipa u enum objektu
+        //ordinal() metoda je enum metoda koja vraca trenutnu poziciju enum tipa u enum objektu
         for (int i = 0; i < 4 ; i++) {
             for (int j = 0; j < 2; ++j) {
                 coords[i][j] = coordsTable[shape.ordinal()][i][j];
